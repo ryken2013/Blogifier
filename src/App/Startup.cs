@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Events;
 using System.Globalization;
+using System.Text;
 
 namespace App
 {
@@ -24,6 +25,8 @@ namespace App
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            var provider = CodePagesEncodingProvider.Instance;
+            Encoding.RegisterProvider(provider);
 
             Log.Logger = new LoggerConfiguration()
               .Enrich.FromLogContext()
@@ -73,10 +76,10 @@ namespace App
                 var supportedCultures = new[]
                 {
                     new CultureInfo("en-US"),
-                    new CultureInfo("ru-RU")
+                    new CultureInfo("zh-CN")
                 };
 
-                options.DefaultRequestCulture = new RequestCulture(culture: "en-US", uiCulture: "en-US");
+                options.DefaultRequestCulture = new RequestCulture(culture: "zh-CN", uiCulture: "zh-CN");
                 options.SupportedCultures = supportedCultures;
                 options.SupportedUICultures = supportedCultures;
             });

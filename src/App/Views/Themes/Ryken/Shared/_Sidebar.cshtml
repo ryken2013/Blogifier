@@ -1,0 +1,23 @@
+﻿<form method="get" action="~/blog">
+    <div class="card my-4">
+        <h5 class="card-header">查找文章</h5>
+        <div class="card-body">
+            <div class="input-group">
+                <input type="text" id="term" name="term" class="form-control" placeholder="关键字...">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="submit">查询</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="card my-4">
+    <h5 class="card-header">文章列表</h5>
+    @await Component.InvokeAsync("PostList", new { theme = "Ryken", widget = "Post List" })
+</div>
+
+<div class="card my-4">
+    <h5 class="card-header">分类</h5>
+    @await Component.InvokeAsync("Categories", new { theme = "Ryken", widget = "Categories" })
+</div>

@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,41 @@
     <Content Remove="wwwroot\admin\Gruntfile.js" />
     <Content Remove="wwwroot\admin\package.json" />
     <Content Remove="wwwroot\admin\package-lock.json" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\Themes\Ryken\List.cshtml" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Post.cshtml" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Ryken.json" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Shared\_Footer.cshtml" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Shared\_Header.cshtml" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Shared\_Navbar.cshtml" />
+    <EmbeddedResource Remove="Views\Themes\Ryken\Shared\_Sidebar.cshtml" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <Content Update="Views\Themes\Ryken\List.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Themes\Ryken\Post.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Themes\Ryken\Shared\_Footer.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Themes\Ryken\Shared\_Header.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Themes\Ryken\Shared\_Navbar.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Themes\Ryken\Shared\_Sidebar.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <Folder Include="Logs\" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

@@ -2,358 +2,314 @@
   {
     "Key": "general",
     "Values": {
-      "en-US": "General",
-      "ru-RU": "Главная"
+      "en-US": "通用"
     }
   },
   {
     "Key": "profile",
     "Values": {
-      "en-US": "Profile",
-      "ru-RU": "Профиль"
+      "en-US": "个人档案"
     }
   },
   {
     "Key": "password",
     "Values": {
-      "en-US": "Password",
-      "ru-RU": "Пароль"
+      "en-US": "密码"
     }
   },
   {
     "Key": "themes",
     "Values": {
-      "en-US": "Themes",
-      "ru-RU": "Темы"
+      "en-US": "主题"
     }
   },
   {
     "Key": "users",
     "Values": {
-      "en-US": "Users",
-      "ru-RU": "Пользователи"
+      "en-US": "用户"
     }
   },
   {
     "Key": "new-user",
     "Values": {
-      "en-US": "New user",
-      "ru-RU": "Новый пользователь"
+      "en-US": "新建用户"
     }
   },
   {
     "Key": "import",
     "Values": {
-      "en-US": "Import",
-      "ru-RU": "Импорт"
+      "en-US": "导入"
     }
   },
   {
     "Key": "new-post",
     "Values": {
-      "en-US": "New Post",
-      "ru-RU": "Новое сообщение"
+      "en-US": "新建博文"
     }
   },
   {
     "Key": "posts",
     "Values": {
-      "en-US": "Posts",
-      "ru-RU": "Сообщения"
+      "en-US": "文章"
     }
   },
   {
     "Key": "settings",
     "Values": {
-      "en-US": "Settings",
-      "ru-RU": "Настройки"
+      "en-US": "配置"
     }
   },
   {
     "Key": "notifications",
     "Values": {
-      "en-US": "Notifications",
-      "ru-RU": "Уведомления"
+      "en-US": "通知"
     }
   },
   {
     "Key": "visit-blog",
     "Values": {
-      "en-US": "Visit Blog",
-      "ru-RU": "Посетить блог"
+      "en-US": "查看文章"
     }
   },
   {
     "Key": "sign-out",
     "Values": {
-      "en-US": "Sign out",
-      "ru-RU": "Выйти"
+      "en-US": "退出登录"
     }
   },
   {
     "Key": "title",
     "Values": {
-      "en-US": "Title",
-      "ru-RU": "Название"
+      "en-US": "标题"
     }
   },
   {
     "Key": "description",
     "Values": {
-      "en-US": "Description",
-      "ru-RU": "Описание"
+      "en-US": "描述"
     }
   },
   {
     "Key": "items-per-page",
     "Values": {
-      "en-US": "Items per page",
-      "ru-RU": "Количество сообщений на странице"
+      "en-US": "每页文章书面"
     }
   },
   {
     "Key": "logo",
     "Values": {
-      "en-US": "Logo Image",
-      "ru-RU": "Логотип"
+      "en-US": "Logo"
     }
   },
   {
     "Key": "cover",
     "Values": {
-      "en-US": "Cover Image",
-      "ru-RU": "Обложка"
+      "en-US": "封面"
     }
   },
   {
     "Key": "language",
     "Values": {
-      "en-US": "Language",
-      "ru-RU": "Язык"
+      "en-US": "语言"
     }
   },
   {
     "Key": "save",
     "Values": {
-      "en-US": "Save",
-      "ru-RU": "Сохранить"
+      "en-US": "保存"
     }
   },
   {
     "Key": "select",
     "Values": {
-      "en-US": "Select",
-      "ru-RU": "Выбрать"
+      "en-US": "选择"
     }
   },
   {
     "Key": "selected",
     "Values": {
-      "en-US": "Selected",
-      "ru-RU": "Выбранный"
+      "en-US": "选中"
     }
   },
   {
     "Key": "search",
     "Values": {
-      "en-US": "Search",
-      "ru-RU": "Поиск"
+      "en-US": "查询"
     }
   },
   {
     "Key": "all",
     "Values": {
-      "en-US": "All",
-      "ru-RU": "Всё"
+      "en-US": "所有文章"
     }
   },
   {
     "Key": "published",
     "Values": {
-      "en-US": "Published",
-      "ru-RU": "Опубликовано"
+      "en-US": "已发布"
     }
   },
   {
     "Key": "draft",
     "Values": {
-      "en-US": "Draft",
-      "ru-RU": "Черновики"
+      "en-US": "草稿"
     }
   },
   {
     "Key": "status",
     "Values": {
-      "en-US": "Status",
-      "ru-RU": "Статус"
+      "en-US": "状态"
     }
   },
   {
     "Key": "not-found",
     "Values": {
-      "en-US": "Not found",
-      "ru-RU": "Не найдено"
+      "en-US": "未找到"
     }
   },
   {
     "Key": "publish",
     "Values": {
-      "en-US": "Publish",
-      "ru-RU": "Опубликовать"
+      "en-US": "发布"
     }
   },
   {
     "Key": "unpublish",
     "Values": {
-      "en-US": "Unpublish",
-      "ru-RU": "Отменить публикацию"
+      "en-US": "撤消发布"
     }
   },
   {
     "Key": "featured",
     "Values": {
-      "en-US": "Featured",
-      "ru-RU": "Избранное"
+      "en-US": "特色"
     }
   },
   {
     "Key": "add-to-featured",
     "Values": {
-      "en-US": "Add to featured",
-      "ru-RU": "Добавить в избранное"
+      "en-US": "加入特色"
     }
   },
   {
     "Key": "cancel",
     "Values": {
-      "en-US": "Cancel",
-      "ru-RU": "Отменить"
+      "en-US": "取消"
     }
   },
   {
     "Key": "delete",
     "Values": {
-      "en-US": "Delete",
-      "ru-RU": "Удалить"
+      "en-US": "删除"
     }
   },
   {
     "Key": "categories",
     "Values": {
-      "en-US": "Categories",
-      "ru-RU": "Категории"
+      "en-US": "分类"
     }
   },
   {
     "Key": "view",
     "Values": {
-      "en-US": "View",
-      "ru-RU": "Посмотреть"
+      "en-US": "预览"
     }
   },
   {
     "Key": "user-name",
     "Values": {
-      "en-US": "User name",
-      "ru-RU": "Имя пользователя"
+      "en-US": "用户名"
     }
   },
   {
     "Key": "email",
     "Values": {
-      "en-US": "Email",
-      "ru-RU": "Почта"
+      "en-US": "电子邮件"
     }
   },
   {
     "Key": "user-bio",
     "Values": {
-      "en-US": "User bio",
-      "ru-RU": "Краткая биография"
+      "en-US": "自我描述"
     }
   },
   {
     "Key": "avatar",
     "Values": {
-      "en-US": "Avatar",
-      "ru-RU": "Аватар"
+      "en-US": "头像"
     }
   },
   {
     "Key": "remove",
     "Values": {
-      "en-US": "Remove",
-      "ru-RU": "Удалить"
+      "en-US": "移除"
     }
   },
   {
     "Key": "removed",
     "Values": {
       "en-US": "Removed",
-      "ru-RU": "Удалено"
+      "en-US": "已移除"
     }
   },
   {
     "Key": "new-password",
     "Values": {
-      "en-US": "New password",
-      "ru-RU": "Новый пароль"
+      "en-US": "新密码"
     }
   },
   {
     "Key": "confirm-password",
     "Values": {
-      "en-US": "Confirm password",
-      "ru-RU": "Подтвердить пароль"
+      "en-US": "确认密码"
     }
   },
   {
     "Key": "close",
     "Values": {
-      "en-US": "Close",
-      "ru-RU": "Закрыть"
+      "en-US": "关闭"
     }
   },
   {
     "Key": "set-as-admin",
     "Values": {
-      "en-US": "Set as administrator",
-      "ru-RU": "Сделать администратором"
+      "en-US": "设为管理员"
     }
   },
   {
     "Key": "select-rss-file",
     "Values": {
-      "en-US": "Select RSS (.xml) file to import posts from",
-      "ru-RU": "Выберите RSS (.xml) файл для импорта"
+      "en-US": "选择用来导入的RSS(.xml)文件"
     }
   },
   {
     "Key": "images",
     "Values": {
-      "en-US": "Images",
-      "ru-RU": "Изображения"
+      "en-US": "图片"
     }
   },
   {
     "Key": "attachements",
     "Values": {
-      "en-US": "Attachements",
-      "ru-RU": "Вложения"
+      "en-US": "附件"
     }
   },
   {
     "Key": "upload",
     "Values": {
-      "en-US": "Upload",
-      "ru-RU": "Загрузить"
+      "en-US": "上传"
     }
   },
   {
     "Key": "filters",
     "Values": {
-      "en-US": "Filters",
-      "ru-RU": "Фильтры"
+      "en-US": "过滤条件"
+    }
+  },
+  {
+    "Key": "post-title",
+    "Values": {
+      "en-US": "文章标题"
     }
   }
 ]
